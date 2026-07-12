@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Quarto & Jupyter
+.quarto/
+*_files/
+*_cache/
+
+# System / IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Data & Large Files
+docs/readings/raw/
+logs/*.log
+*.pdf
+*.zip
+*.docx
+*.xlsx

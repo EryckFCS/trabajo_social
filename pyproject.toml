@@ -1,0 +1,31 @@
+[project]
+name = "trabajo-social"
+version = "0.1.0"
+description = "Node: Trabajo Social - Academia y documentación"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "capital-workstation-libs",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+capital-workstation-libs = { path = "../../../Capital_Workstation/capital-workstation-libs", editable = true }
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+    "pytest-asyncio>=1.3.0",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.8.0",
+    "mypy>=1.12.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
