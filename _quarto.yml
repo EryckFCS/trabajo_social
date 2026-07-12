@@ -1,0 +1,17 @@
+project:
+  type: default
+
+format:
+  pdf:
+    pdf-engine: lualatex
+    template: /home/erick-fcs/Capital_Workstation/capital-workstation-libs/src/ecs_quantitative/reporting/templates/academic_task.tex
+    citeproc: false
+    keep-tex: true
+
+metadata:
+  university: "UNIVERSIDAD NACIONAL DE LOJA"
+  faculty: "FACULTAD JURÍDICA, SOCIAL Y ADMINISTRATIVA"
+  school: "CARRERA DE TRABAJO SOCIAL"
+  course: "FUNDAMENTOS METODOLÓGICOS DEL TRABAJO SOCIAL"
+  author: "Erick Fabricio Condoy Seraquive"
+  professor: "Lcda. Ligia Geomara Párraga Vélez"

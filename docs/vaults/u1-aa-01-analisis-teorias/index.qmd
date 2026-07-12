@@ -1,0 +1,46 @@
+---
+title: "Análisis sobre el Funcionalismo, Marxismo y Teorías Interpretativas"
+subtitle: "Aporte al Componente Autónomo"
+author: "Erick Fabricio Condoy Seraquive"
+date: "2026-07-12"
+assignment: "Informe de Análisis sobre Corrientes Sociológicas y Trabajo Social"
+bibliography: references.bib
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    colorlinks: true
+    header-includes: |
+      \newcommand{\logoUNL}{/home/erick-fcs/Capital_Workstation/capital-workstation-libs/src/ecs_quantitative/reporting/assets/logos/logo_unl.png}
+      \newcommand{\logoECONOMIA}{/home/erick-fcs/Capital_Workstation/capital-workstation-libs/src/ecs_quantitative/reporting/assets/logos/logo_unl.png}
+---
+
+## 1. Introducción
+
+El Trabajo Social es una disciplina y profesión cuyo fundamento epistemológico se nutre directamente de la teoría sociológica para comprender los fenómenos sociales y estructurar modelos de intervención eficaces. Las corrientes teóricas clásicas y contemporáneas no solo ofrecen marcos explicativos sobre la organización de la sociedad, sino que también predeterminan la postura ética, política y metodológica del profesional en territorio. El presente informe analiza tres de los paradigmas sociológicos más influyentes: el funcionalismo, el marxismo y las teorías interpretativas (con énfasis en el interaccionismo simbólico). El objetivo es desglosar la manera en que cada corriente conceptualiza la estructura social e influye en el rol, funciones y alcances del Trabajador Social frente a las problemáticas del entorno contemporáneo.
+
+## 2. Desarrollo
+
+### El Funcionalismo y el Rol del Trabajador Social
+
+El funcionalismo, con raíces en el pensamiento de Émile Durkheim, concibe a la sociedad como un sistema complejo cuyas partes (instituciones, normas y roles) trabajan de forma interdependiente para promover la armonía, la cohesión y la estabilidad social [@durkheim2019division]. Bajo esta perspectiva, las desviaciones o conflictos son interpretados como disfunciones temporales del sistema que requieren mecanismos de adaptación e integración.
+
+Para el Trabajo Social de corte funcionalista, el rol primordial es el de un facilitador de la adaptación recíproca entre el individuo y su entorno social. Las funciones del Trabajador Social se centran en el asistencialismo técnico, la mediación institucional y la rehabilitación conductual, procurando restablecer el equilibrio sistémico. El profesional interviene para canalizar recursos del Estado y de las organizaciones, ayudando a que los sujetos superen sus "desajustes" y se reintegren productivamente a la estructura establecida, sin cuestionar las bases distributivas u ontológicas de dicha estructura.
+
+### El Marxismo y la Intervención Crítica
+
+A diferencia del consenso funcionalista, el marxismo sitúa al conflicto material y a la lucha de clases como los motores del desarrollo histórico y de la dinámica social [@marx2018manifiesto]. Karl Marx sostiene que la estructura económica (relaciones de producción) determina la superestructura política e ideológica, consolidando una distribución desigual del poder y la riqueza que aliena a las clases desposeídas.
+
+En este marco, el Trabajo Social Crítico o Liberador rechaza la mera función asistencialista y adaptativa por considerarla un mecanismo de control social que reproduce el statu quo. El Trabajador Social marxista asume un rol político y pedagógico como agente de transformación social. Sus funciones se orientan a la concienciación de los sujetos sobre sus condiciones materiales de opresión, la organización comunitaria y la promoción de la justicia social. La intervención no busca que el individuo se adapte a un sistema inherentemente desigual, sino capacitarlo para transformar activamente las estructuras institucionales y económicas que perpetúan la marginalidad y la vulnerabilidad.
+
+### Las Teorías Interpretativas e Interaccionismo Simbólico
+
+Las teorías interpretativas, representadas principalmente por el interaccionismo simbólico de Herbert Blumer, abandonan las grandes estructuras macro y se enfocan en las microinteracciones cotidianas y los procesos de significación subjetiva [@blumer1982interaccionismo]. Para esta corriente, la sociedad se construye y reconstruye constantemente a través de los significados que los individuos otorgan a sus acciones, símbolos e interacciones en el día a día.
+
+El Trabajo Social interpretativo y de enfoque construccionista prioriza el mundo interno de los sujetos [@kisnerman1998pensar]. El rol del profesional es el de un copartícipe y facilitador dialógico. Su función principal consiste en comprender, desde la empatía y la fenomenología, la realidad de los usuarios basada en sus propias interpretaciones. La intervención no se impone de manera tecnocrática, sino que se co-diseña a través del diálogo, ayudando a los sujetos a resignificar sus trayectorias de vida, reconstruir sus lazos relacionales y desarrollar procesos de resiliencia y auto-determinación a nivel micro-social.
+
+## 3. Conclusiones
+
+Los paradigmas analizados demuestran que no existe una única ruta metodológica en el Trabajo Social, sino una pluralidad epistemológica que enriquece la práctica. Mientras que el funcionalismo provee herramientas técnicas para la gestión institucional y la mitigación de disfunciones inmediatas en pos de la cohesión, el marxismo aporta una mirada crítica indispensable para desvelar las opresiones estructurales y guiar la praxis hacia la emancipación colectiva. Por su parte, las teorías interpretativas devuelven el protagonismo al sujeto, recordando que la intervención pierde sentido si se ignoran los significados y vivencias de los actores involucrados. Un Trabajo Social contemporáneo y ético requiere articular dialécticamente la solidez estructural del análisis crítico con la sensibilidad relacional del enfoque interpretativo.
+
+## 4. Bibliografía

@@ -26,3 +26,6 @@ logs/*.log
 *.zip
 *.docx
 *.xlsx
+
+/.quarto/
+**/*.quarto_ipynb
