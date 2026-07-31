@@ -1,0 +1,43 @@
+---
+title: "Trabajo Social en el Ecuador: Proyectos MIES"
+subtitle: "Ensayo Académico de Investigación"
+author: "Sandra Lorena Seraquive Cuenca"
+course: "Historia de Trabajo Social"
+semester: 'Primer Semestre "C"'
+period: "PI 2026"
+professor: "Lcda. Gaida Salazar Jennifer Francisca"
+bibliography: references.bib
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    colorlinks: true
+---
+
+## 1. Introducción
+
+El Trabajo Social en el Ecuador ha experimentado una evolución histórica significativa, transitando de una práctica asistencialista a una disciplina fundamentada en la garantía de derechos. En este proceso, el Ministerio de Inclusión Económica y Social (MIES) se erige como el ente rector de las políticas públicas orientadas a la protección especial, el ciclo de vida y la inclusión social. La Constitución de la República de 2008 consagró al Buen Vivir como el horizonte del desarrollo nacional, situando al Estado como el principal garante de los derechos sociales [@constitucion2008ecuador]. Dentro de esta estructura, el Trabajador Social se convierte en el nexo entre la política estatal y la realidad territorial de las familias vulnerables.
+
+El profesional en esta área enfrenta la tarea de operativizar los programas de protección frente a demandas complejas. Este ensayo analiza de manera analítica la intervención del Trabajo Social en los proyectos del MIES en Ecuador. Se examinan los roles del profesional y los límites de su acción institucional en territorio. A través de este análisis, se busca reflexionar sobre el impacto y los desafíos éticos de la intervención social contemporánea en el país.
+
+## 2. Marco Teórico
+
+El MIES despliega su política a través de ejes que integran la protección especial, el ciclo de vida y la inclusión económica [@mies2024informe]. Los programas insignes como "Creciendo con Nuestros Hijos" y la pensión para adultos mayores demandan un fuerte componente de intervención familiar. La política de inclusión económica, a través del Bono de Desarrollo Humano (BDH), busca potenciar las capacidades individuales de los hogares vulnerables [@gomez2022politica]. En este escenario, el Trabajador Social actúa como un agente de seguimiento integral para promover el acceso a educación y salud.
+
+En el territorio, el profesional realiza diagnósticos socioeconómicos, visitas domiciliarias y fichas familiares [@flores2023intervencion]. Estas herramientas permiten evaluar las condiciones reales y diseñar planes de desarrollo familiar acordes a cada realidad. Asimismo, el Trabajador Social gestiona redes interinstitucionales para restituir derechos vulnerados ante organismos competentes. En programas de atención al adulto mayor, su intervención busca mitigar la violencia y promover un envejecimiento activo [@mendoza2023adulto].
+
+A pesar de los avances normativos, la práctica cotidiana enfrenta una marcada tecnocratización. Los profesionales dedican gran parte de su tiempo a tareas administrativas y llenado de matrices cuantitativas. Esto reduce el espacio de acompañamiento cualitativo y el trabajo terapéutico directo. Además, las limitaciones presupuestarias colocan al profesional en una constante tensión ética entre la universalidad del derecho constitucional y la focalización restrictiva del recurso estatal [@constitucion2008ecuador].
+
+## 3. Conclusiones
+
+La intervención del Trabajo Social en el MIES es fundamental para operativizar la política pública en territorio. Los profesionales logran transformar las directrices institucionales en procesos reales de acompañamiento y restitución de derechos. Su labor demuestra la vigencia y necesidad de la disciplina en la mitigación de la vulnerabilidad social.
+
+Sin embargo, el enfoque fiscalizador y la burocracia limitan el potencial transformador de la disciplina. Es imperativo transitar hacia modelos con mayor autonomía técnica que reduzcan la carga administrativa. Solo así el Trabajo Social podrá superar el rol paliativo y fomentar la participación y exigibilidad activa de derechos.
+
+## 4. Recomendaciones
+
+Se recomienda al MIES disminuir la carga administrativa y de reporte de los profesionales de Trabajo Social. Esto permitirá priorizar las visitas de acompañamiento familiar cualitativo y la intervención metodológica directa en territorio. Asimismo, facilitará un diagnóstico continuo de las dinámicas relacionales de los beneficiarios del bono y los programas de desarrollo infantil.
+
+Es necesario fortalecer la capacitación continua de los equipos técnicos en enfoques de derechos y metodologías críticas. De este modo, los profesionales podrán diseñar estrategias adaptadas a las realidades locales del Ecuador. Por último, se debe garantizar la estabilidad y suficiencia presupuestaria de los proyectos de protección especial para asegurar la continuidad de los procesos sociales.
+
+## 5. Referencias
