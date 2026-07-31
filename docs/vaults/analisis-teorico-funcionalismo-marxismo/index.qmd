@@ -1,0 +1,84 @@
+---
+title: "Análisis sobre el Funcionalismo, Marxismo y Teorías Interpretativas"
+bibliography: references.bib
+header-includes:
+  - \captionsetup[table]{labelfont=bf, textfont=bf, font=small}
+---
+
+::: {.content-visible when-format="docx"}
+
+::: {text-align="center"}
+\
+\
+**UNIVERSIDAD ESTATAL DEL SUR DE MANABÍ**
+
+Creada mediante la Ley Pública Registro Oficial 261 del 7 de febrero del 2001
+
+**FACULTAD DE CIENCIAS SOCIALES, HUMANÍSTICAS Y DE LA EDUCACIÓN**
+
+**CARRERA TRABAJO SOCIAL**
+
+\
+**NOMBRE DE LA MATERIA:** Fundamentos del Trabajo Social
+
+**SEMESTRE Y PARALELO:** Primer Semestre "C"
+
+**PERIODO ACADÉMICO:** PI 2026
+
+\
+**TEMA:**
+
+Análisis sobre el Funcionalismo, Marxismo y Teorías Interpretativas
+
+\
+**INTEGRANTE:**
+
+Sandra Lorena Seraquive Cuenca
+
+\
+**DOCENTE FACILITADOR:**
+
+Lcda. Ligia Geomara Párraga Vélez, Mgs.
+
+\
+\
+**JIPIJAPA, MANABÍ, ECUADOR**
+:::
+
+{{< pagebreak >}}
+
+:::
+
+# Introducción
+
+El Trabajo Social utiliza las teorías sociológicas para orientar la intervención. A continuación, se examinarán las limitaciones operativas y conceptuales del funcionalismo, el marxismo y las teorías interpretativas, orden en el cual serán analizados para identificar sus alcances prácticos.
+
+# Desarrollo
+
+Bajo la perspectiva funcionalista, la principal limitación del Trabajo Social radica en la despolitización de las demandas sociales, al priorizar la contención burocrática y la adaptación del sujeto sobre el cambio estructural [@lomeli2023formacion]. Este enfoque reduce la práctica a una intervención instrumental que fragmenta los problemas colectivos en expedientes individuales. Como contraste a este enfoque integrador, la @tbl-comparativa detalla y contrapone las dimensiones de estos marcos teóricos con el modelo crítico e interpretativo.
+
+\begingroup
+\singlespacing
+\fontsize{9pt}{11pt}\selectfont
+\renewcommand{\arraystretch}{0.9}
+\setlength{\tabcolsep}{3pt}
+
+| **Dimensión** | **El Funcionalismo y la Adaptación Institucional** | **El Marxismo y la Intervención Crítica** | **Las Teorías Interpretativas y la Construcción de Sentido** |
+| :--- | :--- | :--- | :--- |
+| **Concepción de la sociedad** | Sistema integrado de partes interdependientes [@alonso2024funcionalismo]. | Estructura conflictiva dividida por clases [@tejerina2024conflicto]. | Construcción intersubjetiva cotidiana [@flores2023diversidad]. |
+| **Origen del problema social** | Desajustes respecto a las normas vigentes. | Desigualdades materiales y opresión de clase. | Ruptura o conflicto en la atribución de sentido diario. |
+| **Rol y objetivo profesional** | Gestor de recursos orientado al equilibrio y ajuste del sujeto [@lomeli2023formacion]. | Promotor de organización colectiva para transformar estructuras de poder. | Acompañante de procesos reflexivos para la autogestión del bienestar [@juantoset2023enfoque]. |
+
+: Comparación de enfoques teóricos {#tbl-comparativa}
+
+\endgroup
+
+Por su parte, el enfoque crítico marxista enfrenta el riesgo del determinismo macroestructural [@tejerina2024conflicto]. Esta postura puede postergar la respuesta operativa inmediata ante la urgencia cotidiana del sujeto, al supeditar la práctica profesional exclusivamente a la transformación revolucionaria del sistema capitalista [@juantoset2023enfoque].
+
+Por otro lado, las teorías interpretativas centran su análisis en la subjetividad cotidiana. No obstante, su limitación radica en el aislamiento microsocial [@flores2023diversidad], omitiendo la coerción de las estructuras de poder y las condiciones materiales objetivas que condicionan la autonomía individual.
+
+# Conclusiones
+
+La tensión entre adaptación (funcionalismo), transformación (marxismo) y significación (teorías interpretativas) exige una praxis reflexiva. El Trabajo Social debe intervenir críticamente en los márgenes institucionales mediante la gestión de recursos viables, sin descuidar el cuestionamiento a las desigualdades estructurales. Así, la intervención parte de la narrativa cotidiana de los sujetos, incidiendo en lo inmediato sin renunciar al cambio estructural.
+
+# Referencias

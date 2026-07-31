@@ -4,14 +4,14 @@ project:
 format:
   pdf:
     pdf-engine: lualatex
-    template: /home/erick-fcs/Capital_Workstation/capital-workstation-libs/src/ecs_quantitative/reporting/templates/academic_task.tex
-    citeproc: false
+    template: /home/erick-fcs/Documentos/universidad/trabajo_social/config/unesum_task.tex
     keep-tex: true
 
 metadata:
-  university: "UNIVERSIDAD NACIONAL DE LOJA"
-  faculty: "FACULTAD JURÍDICA, SOCIAL Y ADMINISTRATIVA"
-  school: "CARRERA DE TRABAJO SOCIAL"
-  course: "FUNDAMENTOS METODOLÓGICOS DEL TRABAJO SOCIAL"
-  author: "Erick Fabricio Condoy Seraquive"
-  professor: "Lcda. Ligia Geomara Párraga Vélez"
+  author: "Sandra Lorena Seraquive Cuenca"
+  course: "Fundamentos del Trabajo Social"
+  semester: 'Primer Semestre "C"'
+  period: "PI 2026"
+  professor: "Lcda. Ligia Geomara Párraga Vélez, Mgs."
+
+

@@ -1,0 +1,317 @@
+% --- TEMPLATE TRABAJO SOCIAL (UNESUM) ---
+% Estándar de Reporteo Académico Limpio y Desacoplado
+\documentclass[12pt,spanish]{article}
+
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{indentfirst} 
+\usepackage{caption}
+\usepackage{floatrow} 
+
+% Forzar estilos de caption antes de cualquier carga
+\floatsetup[figure]{capposition=top}
+\floatsetup[table]{capposition=top}
+
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{threeparttable}
+\usepackage{array}
+\usepackage{calc}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{amsmath, amssymb}
+\usepackage{fancyhdr}
+\usepackage{setspace} 
+\usepackage{ragged2e} 
+\usepackage{titlesec}
+\usepackage{url}
+\def\UrlBreaks{\do\/\do-\do\.\do\_\do\?\do\=\do\&\do\%}
+\usepackage[colorlinks,linkcolor=blue,urlcolor=blue,citecolor=blue,breaklinks]{hyperref}
+
+% --- Pandoc Compatibility Block ---
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% --- Pandoc Citeproc (CSL) compatibility ---
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.27cm} 
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newcommand{\citeproctext}{} 
+\newcommand{\citeprocitem}[2]{\item} 
+\newenvironment{CSLReferences}[2] 
+ {\begin{list}{}{
+  \setlength{\leftmargin}{\cslhangindent}
+  \setlength{\parsep}{0pt}
+  \setlength{\itemsep}{6pt}
+  \ifodd #1
+   \setlength{\leftmargin}{\leftmargin + \csllabelwidth}
+   \setlength{\itemindent}{-\csllabelwidth}
+  \fi
+  }
+  \renewcommand{\bibitem}[2][]{\item}
+ }
+ {\end{list}}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\makeatletter
+\@ifundefined{paragraph}{\newcounter{paragraph}}{}
+\@ifundefined{subparagraph}{\newcounter{subparagraph}}{}
+\makeatother
+
+% Solución al error 'No counter none defined' en longtable
+\makeatletter
+\newcounter{none}
+\@ifpackageloaded{caption}{
+  \DeclareCaptionType{none}
+  \captionsetup[none]{name=Tabla}
+}{}
+\makeatother
+
+\AtBeginDocument{
+  \renewcommand{\tablename}{Tabla}
+  \renewcommand{\figurename}{Figura}
+  \renewcommand{\refname}{Referencias}
+  \justifying
+  \setlength{\parindent}{1.27cm}
+  \setlength{\parskip}{0pt}
+}
+
+% Márgenes APA 7
+\geometry{
+  a4paper,
+  margin=25.4mm,
+  headheight=15mm
+}
+
+% --- Encabezados ---
+\pagestyle{fancy}
+\fancyhf{} 
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[R]{\thepage}
+
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[R]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+% --- Títulos ---
+\titleformat{\section}{\normalfont\normalsize\bfseries\centering}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries\itshape}{\thesubsubsection}{1em}{}
+\titleformat{\paragraph}{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+\titlespacing*{\subsection}{0pt}{12pt}{6pt}
+\titlespacing*{\subsubsection}{0pt}{12pt}{6pt}
+\titlespacing*{\paragraph}{0pt}{12pt}{6pt}
+
+\captionsetup[table]{labelfont=bf, textfont=bf, font=small}\makeatletter\@ifpackageloaded{caption}{}{\usepackage{caption}}\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}\makeatother\makeatletter\makeatother\makeatletter\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}\makeatother
+
+\begin{document}
+
+% --- CARÁTULA UNESUM ---
+\begin{center}
+    \vspace*{1.5cm}
+    \normalsize\textbf{UNIVERSIDAD ESTATAL DEL SUR DE MANABÍ} \\[0.2cm]
+    \normalsize Creada mediante la Ley Pública Registro Oficial 261 del 7 de febrero del 2001 \\[0.4cm]
+    \normalsize\textbf{FACULTAD DE CIENCIAS SOCIALES, HUMANÍSTICAS Y DE LA EDUCACIÓN} \\[0.3cm]
+    \textbf{CARRERA TRABAJO SOCIAL} \\[1.2cm]
+    
+    \textbf{NOMBRE DE LA MATERIA:} Fundamentos del Trabajo
+Social \\[0.3cm]
+    \textbf{SEMESTRE Y PARALELO:} Primer Semestre ``C'' \\[0.3cm]
+    \textbf{PERIODO ACADÉMICO:} PI 2026 \\[1.2cm]
+    
+    \textbf{TEMA:} \\[0.2cm]
+    Análisis sobre el Funcionalismo, Marxismo y Teorías
+Interpretativas \\[1.2cm]
+    
+    \textbf{INTEGRANTE:} \\[0.2cm]
+    Sandra Lorena Seraquive Cuenca \\[1.2cm]
+    
+    \textbf{DOCENTE FACILITADOR:} \\[0.2cm]
+    Lcda. Ligia Geomara Párraga Vélez, Mgs. \\[1.8cm]
+    
+    \textbf{JIPIJAPA, MANABÍ, ECUADOR}
+\end{center}
+
+\thispagestyle{empty}
+\newpage
+\pagenumbering{arabic}
+\doublespacing
+\setlength{\parindent}{1.27cm}
+
+\section{Introducción}\label{introducciuxf3n}
+
+El Trabajo Social utiliza las teorías sociológicas para orientar la
+intervención. A continuación, se examinarán las limitaciones operativas
+y conceptuales del funcionalismo, el marxismo y las teorías
+interpretativas, orden en el cual serán analizados para identificar sus
+alcances prácticos.
+
+\section{Desarrollo}\label{desarrollo}
+
+Bajo la perspectiva funcionalista, la principal limitación del Trabajo
+Social radica en la despolitización de las demandas sociales, al
+priorizar la contención burocrática y la adaptación del sujeto sobre el
+cambio estructural (Lomelí Gutiérrez et al. 2023). Este enfoque reduce
+la práctica a una intervención instrumental que fragmenta los problemas
+colectivos en expedientes individuales. Como contraste a este enfoque
+integrador, la Table~\ref{tbl-comparativa} detalla y contrapone las
+dimensiones de estos marcos teóricos con el modelo crítico e
+interpretativo.
+
+\begingroup
+\singlespacing
+\fontsize{9pt}{11pt}\selectfont
+\renewcommand{\arraystretch}{0.9}
+\setlength{\tabcolsep}{3pt}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\caption{Comparación de enfoques
+teóricos}\label{tbl-comparativa}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Dimensión}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{El Funcionalismo y la Adaptación Institucional}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{El Marxismo y la Intervención Crítica}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Las Teorías Interpretativas y la Construcción de Sentido}
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Dimensión}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{El Funcionalismo y la Adaptación Institucional}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{El Marxismo y la Intervención Crítica}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Las Teorías Interpretativas y la Construcción de Sentido}
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Concepción de la sociedad} & Sistema integrado de partes
+interdependientes (Alonso Benito 2024). & Estructura conflictiva
+dividida por clases (Tejerina Montaña 2024). & Construcción
+intersubjetiva cotidiana (Flores Solano 2023). \\
+\textbf{Origen del problema social} & Desajustes respecto a las normas
+vigentes. & Desigualdades materiales y opresión de clase. & Ruptura o
+conflicto en la atribución de sentido diario. \\
+\textbf{Rol y objetivo profesional} & Gestor de recursos orientado al
+equilibrio y ajuste del sujeto (Lomelí Gutiérrez et al. 2023). &
+Promotor de organización colectiva para transformar estructuras de
+poder. & Acompañante de procesos reflexivos para la autogestión del
+bienestar (Juan Toset and Soraya Mustafa 2023). \\
+\end{longtable}
+
+\endgroup
+
+Por su parte, el enfoque crítico marxista enfrenta el riesgo del
+determinismo macroestructural (Tejerina Montaña 2024). Esta postura
+puede postergar la respuesta operativa inmediata ante la urgencia
+cotidiana del sujeto, al supeditar la práctica profesional
+exclusivamente a la transformación revolucionaria del sistema
+capitalista (Juan Toset and Soraya Mustafa 2023).
+
+Por otro lado, las teorías interpretativas centran su análisis en la
+subjetividad cotidiana. No obstante, su limitación radica en el
+aislamiento microsocial (Flores Solano 2023), omitiendo la coerción de
+las estructuras de poder y las condiciones materiales objetivas que
+condicionan la autonomía individual.
+
+\section{Conclusiones}\label{conclusiones}
+
+La tensión entre adaptación (funcionalismo), transformación (marxismo) y
+significación (teorías interpretativas) exige una praxis reflexiva. El
+Trabajo Social debe intervenir críticamente en los márgenes
+institucionales mediante la gestión de recursos viables, sin descuidar
+el cuestionamiento a las desigualdades estructurales. Así, la
+intervención parte de la narrativa cotidiana de los sujetos, incidiendo
+en lo inmediato sin renunciar al cambio estructural.
+
+\section*{Referencias}\label{referencias}
+\addcontentsline{toc}{section}{Referencias}
+
+\protect\phantomsection\label{refs}
+\begin{CSLReferences}{1}{1}
+\bibitem[\citeproctext]{ref-alonso2024funcionalismo}
+Alonso Benito, Luis Enrique. 2024. {``Funcionalismo y Paradigmas
+Sociológicos. Anotaciones Críticas a Un Libro de Jacques
+Coenen-Huther.''} \emph{Revista Española de Investigaciones
+Sociológicas}, no. 37: 207--17.
+\url{https://doi.org/10.5477/cis/reis.37.207}.
+
+\bibitem[\citeproctext]{ref-flores2023diversidad}
+Flores Solano, José Alberto. 2023. {``Diversidad y Tejido Social: Una
+Aproximación Desde El Interaccionismo Simbólico.''} \emph{CONfines de
+Relaciones Internacionales y Ciencia Política} 19 (36): 24--48.
+\url{https://doi.org/10.46530/cf.vi36/cnfns.n36.p24-48}.
+
+\bibitem[\citeproctext]{ref-juantoset2023enfoque}
+Juan Toset, Elena María, and Pamela Soraya Mustafa. 2023. {``El Enfoque
+Crítico Del Trabajo Social Bajo La Perspectiva de La Teoría Social de
+Marx: Una Propuesta Al Trabajo Social.''} \emph{Servicios Sociales y
+Política Social} 40 (129): 27--38.
+\url{https://www.serviciossocialesypoliticasocial.com/-120}.
+
+\bibitem[\citeproctext]{ref-lomeli2023formacion}
+Lomelí Gutiérrez, Ruth, Victoria Colmenares Ríos, and Noemí Macedonio
+Toledo. 2023. {``Formación de Los Profesionales Del Trabajo Social y La
+Intervención Con Familia: De Lo Funcional Estructural a La Propuesta
+Socio-Constructivista.''} \emph{Universidad Veracruzana}, 219--31.
+\url{https://www.uv.mx}.
+
+\bibitem[\citeproctext]{ref-tejerina2024conflicto}
+Tejerina Montaña, Benjamín. 2024. {``Las Teorías Sociológicas Del
+Conflicto Social. Algunas Dimensiones Analíticas a Partir de k. Marx y
+g. Simmel.''} \emph{Revista Española de Investigaciones Sociológicas},
+no. 55: 47--63. \url{https://doi.org/10.5477/cis/reis.55.47}.
+
+\end{CSLReferences}
+
+\end{document}
