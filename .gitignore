@@ -13,11 +13,14 @@ htmlcov/
 .quarto/
 *_files/
 *_cache/
+.jupyter_cache/
+*.tex
 
 # System / IDE
 .vscode/
 .idea/
 .DS_Store
+.~lock.*
 
 # Data & Large Files
 docs/readings/raw/
