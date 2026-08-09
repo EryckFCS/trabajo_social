@@ -1,0 +1,88 @@
+---
+title: "Campaña contra la Discriminación por Orientación Sexual"
+subtitle: "Trabajo de Prácticas Formativas de Aplicación y Experimentación"
+author: "Sandra Seraquive, Cinthia Yagual, Maria Elena Valarezo, Delia Sacoto, Seme Niurka, Saltos Tania, Rodríguez Miryan"
+course: "Fundamentos del Trabajo Social"
+semester: 'Primer Semestre "C"'
+period: "PI 2026"
+professor: "Lcda. Ligia Geomara Párraga Vélez, Mgs."
+bibliography: references.bib
+link-citations: true
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    colorlinks: true
+    linkcolor: blue
+    citecolor: blue
+    urlcolor: blue
+  docx:
+    toc: false
+    citeproc: true
+    reference-doc: ../../../config/custom-template.docx
+---
+
+::: {.content-visible when-format="docx"}
+
+::: {text-align="center"}
+\
+\
+**UNIVERSIDAD ESTATAL DEL SUR DE MANABÍ**
+
+Creada mediante la Ley Pública Registro Oficial 261 del 7 de febrero del 2001
+
+**FACULTAD DE CIENCIAS SOCIALES, HUMANÍSTICAS Y DE LA EDUCACIÓN**
+
+**CARRERA TRABAJO SOCIAL**
+
+\
+**NOMBRE DE LA MATERIA:** Fundamentos del Trabajo Social
+
+**SEMESTRE Y PARALELO:** Primer Semestre "C"
+
+**PERIODO ACADÉMICO:** PI 2026
+
+\
+**TEMA:**
+
+Campaña contra la Discriminación por Orientación Sexual: "El Amor no tiene Etiquetas"
+
+\
+**INTEGRANTES:**
+
+Sandra Lorena Seraquive Cuenca \
+Cinthia Yagual \
+Maria Elena Valarezo \
+Delia Sacoto \
+Seme Niurka \
+Saltos Tania \
+Rodríguez Miryan
+
+\
+**DOCENTE FACILITADOR:**
+
+Lcda. Ligia Geomara Párraga Vélez, Mgs.
+
+\
+\
+**JIPIJAPA, MANABÍ, ECUADOR**
+:::
+
+{{< pagebreak >}}
+
+:::
+
+{{< include chapters/01_introduccion.qmd >}}
+
+{{< include chapters/02_justificacion.qmd >}}
+
+{{< include chapters/03_afiche.qmd >}}
+
+{{< include chapters/04_conclusiones.qmd >}}
+
+# Referencias
+
+::: {#refs}
+:::
+
+{{< include chapters/05_anexos.qmd >}}

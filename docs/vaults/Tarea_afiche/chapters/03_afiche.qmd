@@ -1,0 +1,9 @@
+# Propuesta del Afiche y Mensaje de Campaña
+
+El afiche diseñado bajo la campaña **"El Amor no tiene Etiquetas"** (ver @fig-afiche) recurre a una estética contemporánea con un prisma central que refracta la luz en un espectro de colores, simbolizando la diversidad y la belleza de la libre expresión de la afectividad. Se integran íconos explícitos de igualdad, respeto, inclusión y apoyo mutuo para sensibilizar a la ciudadanía sobre la importancia de desterrar prejuicios y promover un ciberespacio seguro y tolerante.
+
+![Afiche de la Campaña: "El Amor no tiene Etiquetas"](afiche.png){#fig-afiche width=80% fig-align="center"}
+
+* **Copywriting del Afiche:**
+  * *Titular:* "El Amor no tiene Etiquetas"
+  * *Llamado a la acción:* "Por un entorno digital libre de discriminación. #SinEtiquetas #IgualdadDigital"
