@@ -1,0 +1,145 @@
+---
+title: "Estudio de Caso Práctico en el Ámbito Educativo: Ausentismo Escolar y Vulnerabilidad Sociofamiliar"
+subtitle: "Propuesta de intervención desde el Trabajo Social"
+author: "Grupo #7"
+date: "2026-08-09"
+assignment: "Trabajo Social Educativo"
+bibliography: references.bib
+link-citations: true
+lang: es
+fontsize: 12pt
+geometry:
+  - top=2.5cm
+  - bottom=2.5cm
+  - left=2.5cm
+  - right=2.5cm
+linestretch: 1.5
+format:
+  docx:
+    reference-doc: /home/erick-fcs/Documentos/universidad/trabajo_social/config/custom-template.docx
+    toc: true
+    number-sections: true
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    cite-method: citeproc
+    header-includes: |
+      \newcommand{\logoUNL}{/home/erick-fcs/Capital_Workstation/capital-workstation-libs/src/ecs_quantitative/reporting/assets/logos/logo_unl.png}
+      \newcommand{\logoECONOMIA}{/home/erick-fcs/Capital_Workstation/capital-workstation-libs/src/ecs_quantitative/reporting/assets/logos/logo_unl.png}
+      \thispagestyle{empty}
+      \AtBeginDocument{\clearpage\thispagestyle{plain}}
+---
+
+# Contextualización y presentación del caso
+
+Matías, estudiante de 12 años que cursa Séptimo Año de Educación General Básica en una Unidad Educativa Fiscal, fue derivado por su tutor de aula y el Departamento de Consejería Estudiantil (DECE) al área de Trabajo Social. La derivación responde a una tasa de inasistencia superior al 45 % durante el último trimestre, acompañada de bajo rendimiento académico, fatiga constante, somnolencia en el aula y disminución de su participación escolar.
+
+La actuación coordinada entre el DECE, el personal docente y Trabajo Social responde a las funciones institucionales de acompañamiento, prevención, derivación y seguimiento de situaciones que afectan el bienestar y la permanencia de los estudiantes en el sistema educativo [@mineduc2016modelo].
+
+La investigación social preliminar, realizada mediante entrevista en profundidad y visita domiciliaria, identifica que Matías forma parte de un hogar monoparental. Su madre, de 34 años, tiene a su cargo a Matías y a sus dos hermanos menores, de 6 y 3 años. El padre biológico no mantiene comunicación ni aporta económicamente al grupo familiar.
+
+La madre trabaja en ventas ambulantes, con una jornada aproximada de 05:00 a 19:00. Sus ingresos son inestables e insuficientes para cubrir sostenidamente las necesidades básicas del hogar. La familia tampoco dispone de una red familiar, comunitaria o institucional que asuma el cuidado de los niños menores durante la jornada laboral de la madre.
+
+En consecuencia, Matías ha asumido responsabilidades domésticas y de cuidado que exceden su edad. Durante la ausencia de su madre debe atender a sus hermanos, preparar alimentos básicos, vigilar sus actividades y resolver necesidades cotidianas. Esta situación limita su asistencia regular a clases, reduce su tiempo de descanso y afecta su desempeño académico.
+
+El problema de intervención se ubica en la relación entre la vulnerabilidad socioeconómica y familiar del hogar y la interrupción de la trayectoria educativa de Matías. El ausentismo no se explica por falta de interés individual, sino por la sobrecarga de responsabilidades de cuidado derivada de la precariedad económica, la ausencia de corresponsabilidad paterna y la inexistencia de redes de apoyo. Las desigualdades estructurales pueden profundizar la exclusión educativa cuando las familias no cuentan con condiciones materiales suficientes para sostener la permanencia escolar de niños, niñas y adolescentes [@cepalunesco2020educacion].
+
+El sujeto individual de intervención es Matías, reconocido como sujeto de derechos y participante activo del proceso de acompañamiento. El sujeto familiar está constituido por su madre y hermanos; mientras que los sujetos institucionales comprenden al tutor de aula, el DECE, el área de Trabajo Social, las autoridades de la Unidad Educativa y las entidades públicas de protección social. La intervención debe construirse con la familia y las instituciones vinculadas al caso, evitando responsabilizar exclusivamente a la madre o al estudiante por una problemática de carácter estructural [@kisnerman1998pensar].
+
+# Marco legal 
+
+Matías tiene 12 años y, por tanto, es titular de protección reforzada. El artículo 44 de la Constitución dispone que los derechos de niños, niñas y adolescentes prevalecen sobre los derechos de las demás personas y que su desarrollo integral debe ser promovido prioritariamente por el Estado, la sociedad y la familia [@constitucionEcuador2008].
+
+La situación descrita muestra que las condiciones económicas del hogar han trasladado a Matías tareas de cuidado de sus hermanos de 6 y 3 años. Estas responsabilidades ocupan el tiempo destinado a asistir a clases, realizar actividades escolares y descansar. La intervención debe centrarse en restablecer esas condiciones, no en atribuir al estudiante la responsabilidad por sus inasistencias.
+
+## Educación y continuidad escolar
+
+El artículo 26 de la Constitución reconoce la educación como un derecho de las personas y como un deber ineludible e inexcusable del Estado. El artículo 28 garantiza el acceso, la permanencia, la movilidad y el egreso sin discriminación [@constitucionEcuador2008].
+
+En el caso de Matías, la asistencia inferior al 55 % durante el último trimestre compromete su permanencia efectiva en la Educación General Básica. El bajo rendimiento, la falta de participación y la somnolencia en el aula no pueden analizarse de forma separada de las responsabilidades que asume fuera de la escuela.
+
+El artículo 37 del Código de la Niñez y Adolescencia reconoce el derecho a una educación de calidad y exige garantizar el acceso y la permanencia en la educación básica. Por ello, la Unidad Educativa debe acompañar su reincorporación mediante seguimiento de asistencia, recuperación de aprendizajes y coordinación con la familia y el DECE [@codigoNinezAdolescencia2003].
+
+## Vida digna, desarrollo y descanso
+
+El artículo 44 de la Constitución define el desarrollo integral como un proceso que debe permitir el crecimiento, la maduración y el despliegue de las capacidades de niños, niñas y adolescentes en los ámbitos familiar, escolar, social y comunitario [@constitucionEcuador2008].
+
+El artículo 26 del Código de la Niñez y Adolescencia reconoce el derecho a una vida digna y a condiciones socioeconómicas que permitan el desarrollo integral. En el hogar de Matías, los ingresos inestables de la madre, la ausencia de aporte paterno y la inexistencia de una red de cuidado afectan esas condiciones. La necesidad de permanecer en casa para cuidar a sus hermanos limita su participación regular en la escuela y reduce sus oportunidades de desarrollo acordes con su edad [@codigoNinezAdolescencia2003].
+
+El artículo 48 del mismo Código reconoce el derecho a la recreación, al descanso, al juego y al deporte. La fatiga y la somnolencia observadas en Matías permiten identificar que las tareas de cuidado también afectan este derecho. El descanso no constituye una actividad secundaria: es una condición necesaria para su bienestar, aprendizaje y desarrollo físico y emocional [@codigoNinezAdolescencia2003].
+
+## Protección frente a actividades perjudiciales
+
+El artículo 46, numeral 2, de la Constitución establece la protección especial contra todo tipo de explotación laboral o económica y prohíbe el trabajo de personas menores de quince años. Además, el numeral 1 prevé atención y cuidado diario para niñas y niños menores de seis años, disposición relevante para el hermano de 3 años de Matías [@constitucionEcuador2008].
+
+Los artículos 81 y 82 del Código de la Niñez y Adolescencia protegen a niños, niñas y adolescentes frente a la explotación laboral o económica que pueda perjudicar su educación, salud, desarrollo o bienestar; también fijan los quince años como edad mínima para todo tipo de trabajo, incluido el servicio doméstico [@codigoNinezAdolescencia2003].
+
+La información disponible no permite afirmar que Matías realiza trabajo infantil en sentido jurídico, ya que no se describe una actividad remunerada ni una relación laboral. Sin embargo, el cuidado cotidiano de sus hermanos tiene efectos concretos sobre su educación, descanso y bienestar. La respuesta de protección debe reducir esta sobrecarga mediante alternativas de cuidado para los niños menores, apoyo a la madre y seguimiento de la trayectoria escolar de Matías.
+
+# Objetivos de intervención
+
+## Objetivo general
+
+Restituir y garantizar la continuidad de la trayectoria educativa de Matías mediante una intervención articulada entre la familia, la institución educativa y las entidades públicas de protección social.
+
+## Objetivos específicos
+
+1. Identificar los factores sociofamiliares y económicos que generan las inasistencias reiteradas de Matías, a fin de establecer acciones de intervención pertinentes.
+
+2. Gestionar medidas de protección, cuidado infantil y acompañamiento pedagógico que permitan reducir las barreras para la asistencia y recuperación académica de Matías.
+
+3. Fortalecer las redes de apoyo familiares, comunitarias e institucionales para disminuir la sobrecarga de cuidado asumida por Matías y prevenir nuevas situaciones de ausentismo escolar.
+
+# Matriz de intervención
+
+## Estrategias para los objetivos específicos 1 y 2
+
+| Objetivo específico | Estrategia | Actividades | Recursos | Tiempo | Logros esperados | Responsables |
+|---|---|---|---|---|---|---|
+| Identificar los factores sociofamiliares y económicos que generan las inasistencias reiteradas de Matías | Diagnóstico sociofamiliar y educativo integral | Entrevista con Matías y su madre; visita domiciliaria; revisión del registro de asistencia y rendimiento; coordinación con el tutor y DECE; elaboración de informe social | Ficha social, guía de entrevista, registro de asistencia, informe del tutor, transporte para visita domiciliaria | Primera y segunda semana | Identificación de causas de inasistencia, necesidades familiares, recursos disponibles y factores de riesgo | Trabajador/a social, DECE, tutor de aula y madre de familia |
+| Gestionar medidas de protección, cuidado infantil y acompañamiento pedagógico | Articulación interinstitucional y nivelación escolar | Derivación al DECE y entidades de protección; gestión de cupo o alternativa de cuidado para hermanos menores; elaboración de plan de nivelación; tutorías y actividades de recuperación; seguimiento de asistencia | Oficios de derivación, expediente del caso, coordinación con MIES o servicios locales, material pedagógico, registro de seguimiento | Desde la segunda semana hasta el segundo mes | Disminución de inasistencias, acceso a alternativa de cuidado infantil y recuperación gradual de contenidos académicos | Trabajador/a social, DECE, tutor, autoridades institucionales, madre y entidades de protección social |
+
+## Estrategia para el objetivo específico 3
+
+| Objetivo específico | Estrategia | Actividades | Recursos | Tiempo | Logros esperados | Responsables |
+|---|---|---|---|---|---|---|
+| Fortalecer las redes de apoyo familiares, comunitarias e institucionales | Construcción y activación de una red de apoyo para el cuidado y protección familiar | Elaborar un mapa de redes familiares y comunitarias; identificar personas de apoyo cercanas; realizar reunión con la madre y posibles redes; orientar sobre programas sociales y servicios públicos; establecer compromisos de apoyo y seguimiento | Mapa de redes, fichas de contacto, espacio para reunión, material informativo sobre programas sociales, acta de compromisos | Primer y segundo mes, con seguimiento mensual | Red de apoyo identificada y activada; disminución de la carga de cuidado de Matías; mayor capacidad familiar para sostener su asistencia escolar | Trabajador/a social, madre de familia, DECE, familiares o vecinos de confianza, entidades públicas y comunitarias |
+
+# Conclusión
+
+El ausentismo escolar de Matías constituye una manifestación de vulnerabilidad sociofamiliar y económica, no una falta de interés por su proceso educativo. La necesidad de cuidar a sus hermanos menores, la precariedad laboral de la madre, la ausencia de apoyo paterno y la falta de redes de cuidado han afectado su asistencia, rendimiento académico, descanso y bienestar integral.
+
+El marco jurídico ecuatoriano reconoce y protege el derecho de Matías a la educación, al desarrollo integral, a una vida digna, al descanso y a la protección frente a actividades que perjudiquen su escolarización. Por ello, la respuesta institucional debe ir más allá del control de asistencia e incorporar medidas de protección, apoyo familiar, gestión de redes, cuidado infantil y nivelación pedagógica [@constitucionEcuador2008; @codigoNinezAdolescencia2003].
+
+La intervención desde Trabajo Social debe articular a la familia, la Unidad Educativa, el DECE y las entidades públicas de protección social. Esta acción conjunta permitirá reducir las barreras que mantienen el ausentismo y generar condiciones reales para que Matías continúe y concluya su trayectoria educativa [@anderegg1996introduccion].
+
+# Anexos
+
+## Anexo 1. Ficha de identificación del caso
+
+| Campo | Información |
+|---|---|
+| Nombre del estudiante | Matías |
+| Edad | 12 años |
+| Nivel educativo | Séptimo Año de Educación General Básica |
+| Institución educativa | Unidad Educativa Fiscal |
+| Persona que deriva el caso | Tutor de aula y DECE |
+| Motivo de derivación | Inasistencia superior al 45 %, bajo rendimiento, fatiga y riesgo de abandono escolar |
+| Grupo familiar | Madre de 34 años, Matías y dos hermanos de 6 y 3 años |
+| Situación identificada | Sobrecarga de cuidado de hermanos menores, precariedad económica y ausencia de redes de apoyo |
+
+## Anexo 2. Indicadores de seguimiento
+
+| Indicador | Medio de verificación | Frecuencia |
+|---|---|---|
+| Porcentaje de asistencia de Matías | Registro institucional de asistencia | Quincenal |
+| Rendimiento académico | Reporte del tutor y calificaciones | Mensual |
+| Participación en actividades de nivelación | Registro de tutorías y actividades entregadas | Quincenal |
+| Acceso a una alternativa de cuidado infantil | Informe de gestión y documentos de derivación | Mensual |
+| Activación de redes de apoyo | Mapa de redes y acta de compromisos | Mensual |
+| Estado de bienestar de Matías | Entrevista de seguimiento con estudiante y madre | Quincenal |
+
+\newpage
+
+# Referencias {.unnumbered}
