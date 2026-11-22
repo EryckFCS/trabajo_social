@@ -129,7 +129,14 @@ $header-includes$
     
     \textbf{NOMBRE DE LA MATERIA:} $if(course)$$course$$else$Fundamentos del Trabajo Social$endif$ \\[0.3cm]
     \textbf{SEMESTRE Y PARALELO:} $if(semester)$$semester$$else$Primer Semestre$endif$ \\[0.3cm]
-    \textbf{PERIODO ACADÉMICO:} $if(period)$$period$$else$PI 2026$endif$ \\[1.2cm]
+    \textbf{PERIODO ACADÉMICO:} $if(period)$$period$$else$PI 2026$endif$ \\[0.3cm]
+$if(session)$
+    \textbf{SESIÓN / ACTIVIDAD:} $session$ \\[0.3cm]
+$endif$
+$if(date)$
+    \textbf{FECHA:} $date$ \\[0.3cm]
+$endif$
+    \vspace{0.6cm}
     
     \textbf{TEMA:} \\[0.2cm]
     $if(title)$$title$$else$Tema del Informe$endif$ \\[1.2cm]
@@ -138,7 +145,7 @@ $header-includes$
     $if(author)$$author$$else$Sandra Lorena Seraquive Cuenca$endif$ \\[1.2cm]
     
     \textbf{DOCENTE FACILITADOR:} \\[0.2cm]
-    $if(professor)$$professor$$else$Lcda. Ligia Geomara Párraga Vélez, Mgs.$endif$ \\[1.8cm]
+    $if(professor)$$professor$$else$Lcda. Ligia Geomara Párraga Vélez, Mgs.$endif$ \\[1.5cm]
     
     \textbf{JIPIJAPA, MANABÍ, ECUADOR}
 \end{center}
@@ -146,7 +153,11 @@ $header-includes$
 \thispagestyle{empty}
 \newpage
 \pagenumbering{arabic}
+$if(linestretch)$
+\setstretch{$linestretch$}
+$else$
 \doublespacing
+$endif$
 \setlength{\parindent}{1.27cm}
 
 $body$

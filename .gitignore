@@ -26,6 +26,7 @@ htmlcov/
 docs/readings/raw/
 logs/*.log
 *.pdf
+!**/directrices/*.pdf
 *.zip
 *.docx
 *.xlsx

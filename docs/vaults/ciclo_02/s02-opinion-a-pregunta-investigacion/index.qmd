@@ -1,0 +1,53 @@
+---
+title: "De la opinión cotidiana a una pregunta de investigación científica"
+course: "Metodología de la Investigación"
+semester: 'Segundo Semestre "[POR DEFINIR PARALELO]"'
+period: "PII 2026"
+session: "Sesión 2 — Actividad de Aprendizaje Autónomo"
+date: "[POR DEFINIR FECHA]"
+author: "Sandra Lorena Seraquive Cuenca"
+professor: "Ec. Geanella Manrique Merchán, Mgtr."
+lang: es
+fontsize: 11pt
+linestretch: 1.5
+bibliography: references.bib
+link-citations: true
+format:
+  pdf:
+    pdf-engine: lualatex
+    template: ../../../../config/unesum_task.tex
+    output-file: Seraquive_Sandra_Sesion2.pdf
+    toc: false
+    number-sections: false
+    colorlinks: true
+    keep-tex: true
+---
+
+# Problemática seleccionada y afirmación cotidiana
+
+[POR REDACTAR: definir la problemática social concreta y contextualizada en Ecuador, junto con la afirmación cotidiana identificada como opinión no comprobada.]
+
+# Análisis crítico de la afirmación
+
+[POR REDACTAR: 4 a 6 líneas explicando qué presupone la afirmación, por qué podría ser incompleta y qué riesgos implica aceptarla sin investigación previa.]
+
+# Evidencias y fuentes necesarias
+
+[POR REDACTAR: proponer al menos tres tipos de fuentes o evidencias pertinentes y justificar brevemente para qué serviría cada una sin inventar datos.]
+
+# Pregunta preliminar de investigación
+
+[POR REDACTAR: pregunta clara, abierta, viable y no estigmatizante que incluya población, fenómeno y contexto.]
+
+# Reflexión ética y compromiso académico
+
+[POR REDACTAR: 4 a 6 líneas sobre el enfoque ético, respeto a la dignidad, confidencialidad y derechos de las personas, seguidas de 3 a 4 líneas sobre el aprendizaje obtenido entre la opinión inicial y la pregunta científica y el compromiso concreto con la honestidad académica.]
+
+# Declaración de uso de inteligencia artificial
+
+[POR COMPLETAR: elegir Opción A o Opción B conforme a la directriz de la Sesión 2.]
+
+# Referencias
+
+::: {#refs}
+:::
