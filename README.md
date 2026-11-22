@@ -4,7 +4,7 @@ Este repositorio es un nodo federado autónomo diseñado para gestionar tareas, 
 
 ## Estructura de Trabajo
 El nodo sigue estrictamente la arquitectura de **Nivel 5**:
-- `docs/vaults/`: Unidades de análisis, casos de estudio y talleres prácticos.
+- `docs/vaults/`: Unidades de análisis, casos de estudio y talleres prácticos organizados por ciclo en `ciclo_01/`, `ciclo_02/`, etc.
 - `docs/readings/`: Biblioteca de literatura en Trabajo Social y PDFs de referencia.
 - `docs/writing/`: Reportes de Quarto e informes listos para entrega.
 - `docs/management/`: Planificación y gestión administrativa del nodo.

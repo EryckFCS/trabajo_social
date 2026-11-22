@@ -19,7 +19,7 @@ format:
   docx:
     toc: false
     citeproc: true
-    reference-doc: ../../../config/custom-template.docx
+    reference-doc: ../../../../config/custom-template.docx
 ---
 
 ::: {.content-visible when-format="docx"}

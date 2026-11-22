@@ -16,7 +16,7 @@ geometry:
 linestretch: 1.5
 format:
   docx:
-    reference-doc: /home/erick-fcs/Documentos/universidad/trabajo_social/config/custom-template.docx
+    reference-doc: ../../../../config/custom-template.docx
     toc: true
     number-sections: true
   pdf:

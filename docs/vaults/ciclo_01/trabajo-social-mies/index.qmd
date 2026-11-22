@@ -13,7 +13,7 @@ format:
     number-sections: false
     colorlinks: true
   docx:
-    reference-doc: ../../../config/custom-template.docx
+    reference-doc: ../../../../config/custom-template.docx
     toc: false
 ---
 

@@ -4,7 +4,7 @@ project:
 format:
   pdf:
     pdf-engine: lualatex
-    template: /home/erick-fcs/Documentos/universidad/trabajo_social/config/unesum_task.tex
+    template: config/unesum_task.tex
     keep-tex: true
 
 metadata:

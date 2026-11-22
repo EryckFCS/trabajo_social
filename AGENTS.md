@@ -29,7 +29,9 @@ Este nodo está diseñado para la gestión del conocimiento y soporte en Trabajo
 ```text
 .
 ├── docs/
-│   ├── vaults/            # Talleres, casos y reportes estructurados
+│   ├── vaults/            # Talleres, casos y reportes estructurados por ciclo
+│   │   ├── ciclo_01/      # Tareas y proyectos del Primer Ciclo
+│   │   └── ciclo_02/      # Tareas y proyectos del Segundo Ciclo
 │   ├── writing/           # Capa narrativa y entregables en formato Quarto (TIC.qmd, PIIC.qmd)
 │   ├── readings/          # Bóveda de literatura, artículos y libros en PDF
 │   ├── management/        # Planificación, arquitectura local y hoja de ruta
